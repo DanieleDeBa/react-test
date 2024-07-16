@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './components/logo_oro.png';
+import sfondo from './components/sfondo.jpeg';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div class="card text-bg-dark">
+      <img src={sfondo} class="card-img" alt="..."/>
+      <div class="card-img-overlay">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+          <img src={logo} alt="Bootstrap" width="100" height="100"/>
+          < div className="container-fluid">
+            <span className="navbar-brand mb-0 h1">Shiatsu Nagomi</span>
+          </div>
+        </nav>
+      </div>
+  </div >
+
+    
   );
 }
 
