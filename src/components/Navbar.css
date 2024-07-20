@@ -1,3 +1,94 @@
-.navbar{
-    color: rgb(177, 205, 38);
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+/* header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	padding: 0 2rem;
+	background-color: var(--mainColor);
+	color: var(--textColor);
+} */
+/* Stili generali */
+nav a {
+	margin: 0 1rem;
+	color: var(--textColor);
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: rgb(244, 239, 239);
+}
+
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+header {
+    border: 1px white solid;
+    flex: 1;
+    display: flex;
+    justify-content: space-between; /* Per allineare gli elementi del header */
+    align-items: center;
+}
+
+header div,
+nav {
+	display: flex;
+	align-items: center;
+}
+
+header a {
+    font-size: 30px;
+}
+
+/* Per schermi grandi */
+header nav {
+    margin-left: auto; /* Spinge la navbar tutta a destra */
+}
+
+/* Media query per schermi piccoli */
+@media only screen and (max-width: 1024px) {
+	header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+		margin-left: auto; /* Spinge il bottone del menu a destra */
+	}
+
+	header nav {
+		position: fixed;
+		top: -100vh;
+		right: 0; /* Cambiato da left a right */
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center; /* Puoi mantenere il centro o cambiare a flex-end per allineare a destra */
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: gray;
+		transition: 1s;
+	}
+
+	header .responsive_nav {
+		transform: translateY(100vh);
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav a {
+		font-size: 1.5rem;
+	}
 }

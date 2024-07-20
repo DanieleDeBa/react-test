@@ -2,6 +2,8 @@ import Navbar from './components/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import Logo from './components/Logo';
+import texts from './components/texts.json';
+
 
 // function App() {
 //   return (
@@ -26,8 +28,8 @@ function App() {
             <Navbar/>
           </div>
           <div  className='body'>
-            <h1> Shiatsu Nagomi</h1>
-            <p>Paragraph of shiatsu Nagomi</p>
+            <h1> {texts.title} </h1>
+            <p> {texts.paragraph1}</p>
           </div>
         </div>
       </section>
