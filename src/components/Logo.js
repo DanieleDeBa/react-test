@@ -2,7 +2,7 @@ import logo from '../Images/logo_oro.png';
 import '../App.css';
 import {useState} from 'react';
 import Popup from './Popup';
-import texts from './texts.json';
+import texts from '../texts/texts.json';
 
 
 
@@ -32,7 +32,7 @@ function Logo(){
         <div className="logo"
         onMouseOver={handleMouseOver}
         onMouseOut={handleMouseOut}>
-            <img src={logo} alt="Bootstrap" width="200" height="200" className="me-2"/>
+            <img className="imglogo" src={logo} alt="Bootstrap" className="me-2"/>
         {isHovering && (
             <Popup message={texts.popupMessageLogo} onClose={handleClosePopup} />
           )}

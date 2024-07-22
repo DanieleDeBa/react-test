@@ -1,14 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
 
-/* header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	height: 80px;
-	padding: 0 2rem;
-	background-color: var(--mainColor);
-	color: var(--textColor);
-} */
 /* Stili generali */
 nav a {
 	margin: 0 1rem;
@@ -37,7 +28,8 @@ header {
     flex: 1;
     display: flex;
     justify-content: space-between; /* Per allineare gli elementi del header */
-    align-items: center;
+    align-items: start;
+	margin-left: auto;
 }
 
 header div,

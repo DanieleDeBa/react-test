@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
-import texts from './texts.json';
+import texts from '../texts/texts.json';
 
 
 function Navbar() {
