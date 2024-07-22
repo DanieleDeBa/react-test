@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-test/static/css/main.d540c148.css",
-    "main.js": "/react-test/static/js/main.76ada502.js",
+    "main.css": "/react-test/static/css/main.660a2f58.css",
+    "main.js": "/react-test/static/js/main.39a579d2.js",
     "static/js/453.e948f36d.chunk.js": "/react-test/static/js/453.e948f36d.chunk.js",
+    "static/media/DSC_2489.jpg": "/react-test/static/media/DSC_2489.8b6ac502365484137d36.jpg",
     "static/media/logo_oro.png": "/react-test/static/media/logo_oro.24e37ce5f05248155c97.png",
-    "static/media/sfondo.jpeg": "/react-test/static/media/sfondo.db96edd626b419f63a1c.jpeg",
     "index.html": "/react-test/index.html",
-    "main.d540c148.css.map": "/react-test/static/css/main.d540c148.css.map",
-    "main.76ada502.js.map": "/react-test/static/js/main.76ada502.js.map",
+    "main.660a2f58.css.map": "/react-test/static/css/main.660a2f58.css.map",
+    "main.39a579d2.js.map": "/react-test/static/js/main.39a579d2.js.map",
     "453.e948f36d.chunk.js.map": "/react-test/static/js/453.e948f36d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d540c148.css",
-    "static/js/main.76ada502.js"
+    "static/css/main.660a2f58.css",
+    "static/js/main.39a579d2.js"
   ]
 }
